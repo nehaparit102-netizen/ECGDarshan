@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Large ECG datasets
+data/mitbih_train.csv
+data/mitbih_test.csv
+data/Normal.csv
+data/Abnormal .csv
+
+# Large NumPy training files
+data/X_train.npy
+data/X_test.npy
+data/y_train.npy
+data/y_test.npy
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+Thumbs.db
+.DS_Store
