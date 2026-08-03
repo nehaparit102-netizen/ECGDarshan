@@ -24,3 +24,7 @@ data/y_test.npy
 # OS files
 Thumbs.db
 .DS_Store
+# User-uploaded ECGs
+uploads/
+data/friend_ecg.jpg
+data/friend_ecg.jpg.pdf
