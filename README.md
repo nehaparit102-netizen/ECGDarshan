@@ -83,3 +83,30 @@ MIT-BIH Arrhythmia Database from PhysioNet
 ## 🚀 How to Run
 
 ### 1. Install requirements:
+### 2. Download MIT-BIH dataset from PhysioNet
+Place CSV files in data/ folder
+
+### 3. Run preprocessing:
+### 4. Train model:
+### 5. Start website:
+### 6. Open browser:
+---
+
+## 📁 Project Structure
+ECGDarshan/
+├── app.py # Flask web application
+├── model.py # CNN model V1
+├── model2.py # CNN model V2 with SMOTE
+├── preprocessing.py # Data preprocessing
+├── risk_score.py # Cardiac risk calculator
+├── pqrst_analysis.py # PQRST detection
+├── analyze_image.py # ECG image analysis
+├── generate_test_ecg.py # Generate test images
+├── find_samples.py # Find class samples
+├── README.md # Project documentation
+├── templates/
+│ └── index.html # Web dashboard
+└── data/
+├── mitbih_train.csv # Training data
+├── mitbih_test.csv # Testing data
+└── (model files)
